@@ -1,0 +1,72 @@
+body {
+	margin: 0px;
+	padding: 0px 10px 10px 50px;
+	font-weight:100;
+	font-family: "gudea";}
+
+a {text-decoration:none;
+	font-weight: 100;
+	color:grey;}
+
+
+.Pageheader {
+	font-size: 30px;
+	color:red;
+	height: 50px;}
+
+A.headerlink {color:red;}
+A.headerlink:link  {text-decoration: none; color: red;}
+A.headerlink:visited {text-decoration: none; color: red;}
+A.headerlink:hover {text-decoration: none; color: red;}
+A.headerlink:active {text-decoration: none; color: red;}
+
+
+.Pagetitle {
+	font-size: 20px;
+	font-weight: 100;}
+
+
+.navlinks {
+padding-right: 5px;
+font-size: 20px;
+height: 20px}
+
+A.navlinks {text-decoration: underline; color:grey;}
+A.navlinks:link {text-decoration: underline; color:grey;}
+A.navlinks:visited {text-decoration: underline; color:grey;}
+A.navlinks:hover {text-decoration: underline; color:grey;}
+A.navlinks:active {text-decoration: underline; color:grey;}
+
+
+
+
+
+.Dates {
+font-size: 30px;
+font-weight: lighter;
+color: grey;
+}
+
+.Articleheader {
+	height: 20px;
+	text-decoration:none;
+	font-size: 30px;
+	color:black;}
+
+.Articleheader:link {text-decoration: none; color: black;}
+.Articleheader:visited {text-decoration: none; color: black;}
+.Articleheader:hover {text-decoration: none; color: black;}
+.Articleheader:active {text-decoration: none; color: black;}
+
+p {
+	width: 550px;}
+
+img {width:550px;}
+
+p:first-letter {
+	font-size: 600%; float: left; margin: 0 10px 10px 0; line-height: 1; color: grey;
+}
+
+
+
+
