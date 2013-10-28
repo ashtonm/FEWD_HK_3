@@ -10,6 +10,7 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
+* Box Model Hack
 * Advanced CSS Selectors
 * CSS Specificity
 * HTML5 Structural Elements
@@ -18,15 +19,29 @@ Kit Yuen & Mart van de Ven
 
 
 
+## Box Model Hack
+<aside class="notes">Kit ~ 10 min</aside>
+
+```
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+```
+
+
+
 ## Advanced CSS Selector
-<aside class="notes">Kit ~ 30 min</aside>
+<aside class="notes">Kit ~ 20 min</aside>
 
 [The 30 CSS Selectors you Must Memorize](http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/)
 
 
 
 ## CSS Specificity
-<aside class="notes">Kit ~ 30 min</aside>
+<aside class="notes">Mart ~ 15 min</aside>
 
 [Specifics on CSS Specificity](http://css-tricks.com/specifics-on-css-specificity/)
 
@@ -34,7 +49,7 @@ Kit Yuen & Mart van de Ven
 
 
 ## HTML5 Structural Elements
-<aside class="notes">10 mins</aside>
+<aside class="notes">Mart ~ 10 mins</aside>
 
 * ```<header>```
 * ```<aside>```
@@ -42,20 +57,11 @@ Kit Yuen & Mart van de Ven
 
 
 
-## Floats
-<aside class="notes">10 mins</aside>
-
-Float is a CSS positioning property, used to layout a web page. 
-![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
-
-
-
 ## Code Along
 <aside class="notes">
   Both ~ 60 mins
-  This would be a long class lab demonstrating the following ideas:
-    - HTML 5 elements including header, aside, footer
-    - CSS: float
+    * HTML: header, aside, footer
+    * CSS: float 
 </aside>
 
 ### Floating Sections
@@ -63,10 +69,30 @@ Float is a CSS positioning property, used to layout a web page.
 
 
 
-## CSS Positioning
-<aside class="notes">
-  Do you think we should introduce CSS position?
-</aside>
+## Floats
+<aside class="notes"></aside>
+
+Float is a CSS positioning property, used to layout a web page. 
+![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
+
+
+
+## The clearfix hack
+<aside class="notes"></aside>
+
+Apply the clearfix class to the parent element such that it knows the height of the floating children.
+
+```
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+```
 
 
 
@@ -77,3 +103,8 @@ Float is a CSS positioning property, used to layout a web page.
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 ### Fashion Blog Part 2
+
+### Reading
+
+* [All about Floats](http://css-tricks.com/all-about-floats/)
+* [Floats: Things you should know](http://coding.smashingmagazine.com/2007/05/01/css-float-theory-things-you-should-know/)

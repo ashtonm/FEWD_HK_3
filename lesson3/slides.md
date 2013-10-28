@@ -150,8 +150,6 @@ That should be all! Check GH to check whether it worked
 
 **Height** = content height + padding-top + padding-bottom + border-top + border-bottom
 
-* Box Model Hack
-
 
 
 ## HTML Template
