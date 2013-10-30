@@ -8,6 +8,70 @@ Kit Yuen & Mart van de Ven
 
 
 
+## Chrome Web Inspector
+<aside class="notes">Kit (10 Min)</aside>
+
+The must-have tool in development!
+
+
+
+## CSS: Pseudo Classes for Anchor
+<aside class="notes">Kit (10 Min)</aside>
+
+###Order does matter!
+
+* a:
+* a:link
+* a:visited
+* a:hover
+* a:active
+
+
+
+## CSS: Positioning
+<aside class="notes">Kit (10 Min)</aside>
+
+* ```position: static;```
+* ```position: fixed;```
+* ```position: absolute;```
+* ```position: relative;```
+
+
+
+## CSS: Block Element VS Inline Element
+<aside class="notes">Kit (10 Min)</aside>
+
+* ```display: block;```
+* ```display: inline;```
+
+
+
+## CSS: Block Element VS Inline Element
+<aside class="notes">Kit (10 Min)</aside>
+
+### Block-level elements
+
+* If no width is set, will expand naturally to fill its parent container.
+* Can have margins and/or padding.
+* If no height is set, will expand naturally to fit its child elements. (assuming they are not floated or positioned)
+* By default, will be placed below previous elements in the markup. (assuming no floats or positioning on surrounding elements)
+* It’s not necessary to give it a set width or to give it a width of 100% if you want it to fill its parent horizontally. In fact, doing either of those things may cause maintainability issues or other undesirable problems.
+* `<p>`, `<div>`, `<form>`, `<header>`, `<nav>`, `<ul>`, `<li>`, and `<h1>`
+
+
+
+## CSS: Block Element VS Inline Element
+<aside class="notes">Kit (10 Min)</aside>
+
+### Inline-level elements
+
+* Will not clear previous content to drop to the next line like block elements.
+* Ignore top and bottom margin settings but apply left right margins and all paddings.
+* Ignore the width and height properties.
+* `<a>`, `<span>`, `<em>`, and `<code>`.
+
+
+
 ## Startup Matchmaker 
 <aside class="notes">Both (180 Min)</aside>
 
