@@ -1,50 +1,139 @@
+
+
+
 body {
-	margin: 0px;
-	padding: 0px 10px 10px 50px;
-	font-weight:100;
-	font-family: "gudea";}
+	padding-left: 50px;
+	padding-top: 30px
+	font-family: "gudea";
+}
 
-a {text-decoration:none;
+/* QUESTION - do you set width of the body? */
+
+/* a {
+	text-decoration:none;
 	font-weight: 100;
-	color:grey;}
+	color:grey; */
 
 
-.Pageheader {
-	font-size: 30px;
+/*
+header.Navigation {float: left;}
+ul.Navigationlinks {float:left;} */
+
+/* NAV */
+
+.Navigation {
+	margin-bottom: 60px;
+	float: left;
+	width: 100%;
+} 
+
+h1 {
+	font-size: 45px;
 	color:red;
-	height: 50px;}
+	height: 50px;
+	margin-bottom: 0px;
+	float: left;}
 
-A.headerlink {color:red;}
-A.headerlink:link  {text-decoration: none; color: red;}
-A.headerlink:visited {text-decoration: none; color: red;}
-A.headerlink:hover {text-decoration: none; color: red;}
-A.headerlink:active {text-decoration: none; color: red;}
+h1 a {color:red;}
+h1 a:link  {text-decoration: none; color: red;}
+h1 a:visited {text-decoration: none; color: red;}
+h1 a:hover {text-decoration: none; color: red;}
+h1 a:active {text-decoration: none; color: red;}
 
-
-.Pagetitle {
-	font-size: 20px;
-	font-weight: 100;}
-
+h2.title{
+	color: grey;
+	padding-top: 30px;
+	padding-left: 20px;
+	float: left;}
 
 .navlinks {
-padding-right: 5px;
-font-size: 20px;
-height: 20px}
+	list-style: none;
+	float: left; 
+}
 
+.navlinks a {
+	padding-right: 30px;
+	text-decoration: none;
+	background: black;
+	color: #EEE;
+	padding: 15px;
+	font-size: 20px;
+	border: 1px solid white;} /*how do you get a thinner border? */
+
+.navlinks a:hover {color: #AAA;}
+.navlinks a:active {color: #99F;}
+
+
+/*.Navigation*/.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* can't find the padding causing this to be at 40px */
+ul {padding-left: 0px}
+
+
+
+/*h1.pageheader{
+	font-size: 30px;
+	color:red;
+	height: 50px;
+	margin-bottom: 0px;
+	float: left; */
+
+/*
+.Pagetitle {
+	font-size: 20px;
+	font-weight: 100;
+	margin-bottom: 0px;
+	float: left;
+}
+*/
+
+
+/*
 A.navlinks {text-decoration: underline; color:grey;}
 A.navlinks:link {text-decoration: underline; color:grey;}
 A.navlinks:visited {text-decoration: underline; color:grey;}
 A.navlinks:hover {text-decoration: underline; color:grey;}
 A.navlinks:active {text-decoration: underline; color:grey;}
+old nav links */
+
+/* MAIN */
+
+/*
+#container {
+	float:left;
+	width: 100%}
+	*/
 
 
+#main {float: left;
+width: 60%}
+
+img {width: 100%;
+}
 
 
+#aboutus 
+	{float: right;
+	width:40%;
+	padding: 50px;
+padding-top: 110px;}
 
-.Dates {
+/* do you leave 10% free so everything fits in? This only adds up to 90% */
+
+
+h3 {
 font-size: 30px;
 font-weight: lighter;
 color: grey;
+margin-top: 60px;
+margin-bottom: -10px;
 }
 
 .Articleheader {
@@ -58,13 +147,61 @@ color: grey;
 .Articleheader:hover {text-decoration: none; color: black;}
 .Articleheader:active {text-decoration: none; color: black;}
 
-p {
-	width: 550px;}
-
-img {width:550px;}
-
-p:first-letter {
+.articletext:first-letter {
 	font-size: 600%; float: left; margin: 0 10px 10px 0; line-height: 1; color: grey;
+}
+
+.articletext {color:grey;
+}
+
+
+h4 {text-align: right;}
+h4 a {color:red;}
+h4 a:link  {text-decoration: none; color: red;}
+h4 a:visited {text-decoration: none; color: red;}
+h4 a:hover {text-decoration: none; color: red;}
+h4 a:active {text-decoration: none; color: red;}
+
+
+/* sidebar */
+
+.sidebarheader {
+	color: grey;
+	font-weight: 700;}
+
+.sidebartext {color: grey;
+}
+
+.adbox {font-size: 100px;
+	text-align: center; 
+	height: 300px; 
+	color: grey;
+	background-color: #CCCCCC;
+	padding: 100px;
+	font-family: serif;
+	margin: 10px;
+}
+
+.popularposts {font-size: 30px;
+	font-weight: 700;
+	color: grey;
+}
+
+.sidebarlinks {font-size: 30px; 
+color: red;
+}
+
+#sidebarlinks a {color:red;}
+#sidebarlinks a:link  {text-decoration: none; color: red;}
+#sidebarlinks a:visited {text-decoration: none; color: red;}
+#sidebarlinks a:hover {text-decoration: none; color: red;}
+#sidebarlinks a:active {text-decoration: none; color: red;}
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
 }
 
 
