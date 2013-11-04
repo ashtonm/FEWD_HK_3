@@ -4,7 +4,7 @@ body {
 
 
 #wrapper {
-	width: 960px;
+	width: 650px;
 	margin: 0 auto;
 }
 
@@ -26,8 +26,8 @@ h1 {
 
 nav	{
 	float: right;
-	margin-right: 50px;
-	margin-top: -30px;
+	margin-right: 15px;
+	margin-top: -20px;
 }
 
 li {
@@ -72,7 +72,7 @@ li a:active {text-decoration: none;
 img {width: 100%; }
 
 .imagetextbox {float: right;
-	width: 280px;
+	width: 245px;
 	position: absolute;
 	top: 40px;
 	right: 20px;
