@@ -1,0 +1,161 @@
+body {
+	font-family: Cambria;
+}
+
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background: black;
+	height: 100px;
+	border-bottom: 10px;
+	border-bottom color: rgb(255, 255, 100);
+	padding-left: 20px;
+}
+
+
+h1 {
+	color: rgb(255, 255, 100);
+	padding-top: 10px;
+	padding-right: 10px;
+	margin-top: 0px;
+}
+
+nav	{
+	float: right;
+	margin-right: 50px;
+	margin-top: -30px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-family: cambria;
+}
+
+li a:hover {text-decoration: none;
+	color:white;}
+li a: {text-decoration: none;
+	color:white;}
+li a:link {text-decoration: none;
+	color:white;}
+li a:visited {text-decoration: none;
+	color:white;}
+li a:hover {text-decoration: none;
+	color:white;}
+li a:active {text-decoration: none;
+	color:white;}
+
+.developers {text-transform: uppercase;}
+.designers {text-transform: uppercase;}
+
+.title {
+	background: rgb(200, 200, 200);
+	height: 50px;
+	margin: 0;
+}
+
+.titletext {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 10px;
+	font-size: 25px;
+	font-style:italic;
+	font-weight: 500;
+}
+
+img {width: 100%; }
+
+.imagetextbox {float: right;
+	width: 280px;
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	box-shadow: 0 0 2px 2px grey;
+	font-family: arial; 
+}
+
+.imagewrap {
+	position: relative;
+}
+
+.button {background-color: rgb(255, 255, 100);
+border-radius: 10px;
+text-align: center;
+text-transform: uppercase;
+padding: 10px;
+font-weight: bold;
+box-shadow: 0 8px 6px -6px rgb(200,200,100);
+
+}
+
+.boxtext {margin-top: -15px;
+	line-height: 1.5;
+}
+
+.taste {
+	text-decoration: line-through;
+	color:grey;
+}
+
+.are {text-decoration: none;
+border-bottom: 1px yellow;
+
+}
+
+.create{
+	float:left;
+	width: 33%;
+	padding: 20px;
+}
+
+.finddeveloper {
+	float:left;
+	width: 33%;
+	padding: 20px;
+	border-left: 5px grey;
+	border-right: 5px grey;
+}
+
+.finddesigner {
+	float:left;
+	width:33%;
+	padding: 20px;
+}
+
+.linkbutton {background-color: rgb(200, 200, 200);
+border-radius: 5px;
+text-align: center;
+text-transform: uppercase;
+padding: 10px;
+font-weight: bold;
+box-shadow: 0 8px 6px -6px rgb(200,200,220);
+width:200px;
+margin: auto;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;}
+
+  /* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
