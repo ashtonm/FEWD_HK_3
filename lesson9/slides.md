@@ -95,23 +95,37 @@ Returns HTML elements you have selected.
 
 
 
-## jQuery
+## `<head>` or `<body>`?
 <aside class="notes"></aside>
 
+* Putting it in `<head>`, need to wait for the .js to be completely loaded before the `<body>` is rendered.
+* Putting just before the `</body>` can increase page load speed
+* You can also consider making use of CDN like Google CDN
+
+
+
+## $(document).ready();
+<aside class="notes"></aside>
+
+If you want to place the .js file inside the `<head>`, you need put your code inside
 ```$(document).ready();```
 
+So your code will run after the DOM sis completely loaded and you can select any tags in the `<body>` with any problem.
 
 
-## jQuery
+
+## jQuery API Documentation
 <aside class="notes"></aside>
 
-Everything you need to know is here: 
+Everything you need to know is [here](http://api.jquery.com/): 
 
-### http://jquery.com/
+Example:
+* [.attr()](http://api.jquery.com/attr/)
+* [.css()](http://api.jquery.com/css/)
 
 
 
-# Rewrite Color Switcher
+## Rewrite Color Switcher
 <aside class="notes">Class ~ 60 Min</aside>
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
@@ -122,7 +136,19 @@ Everything you need to know is here:
 
 
 
-# Divided Times
+## Divided Times
 <aside class="notes">Class ~ 90 Min</aside>
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
+
+Play with the following functions before u start:
+* [.toggleClass()](http://api.jquery.com/toggleClass/)
+* [.hasClass()](http://api.jquery.com/hasClass/)
+* [.hide()](http://api.jquery.com/hide/)
+* [.show()](http://api.jquery.com/show/)
+
+And also:
+* [.slideUp()](http://api.jquery.com/slideUp/)
+* [.siblings()](http://api.jquery.com/siblings/)
+* [.removeClass()](http://api.jquery.com/removeClass/)
+* [.addClass()](http://api.jquery.com/addClass/)
