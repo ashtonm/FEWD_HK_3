@@ -194,4 +194,4 @@ Get help!
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 
-Continue your card matching game
+Continue your food voting lab / Introduce the memory game
