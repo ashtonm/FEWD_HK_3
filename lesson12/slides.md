@@ -115,7 +115,7 @@ Always start be defining the problem.
 ## Debugging
 <aside class="notes"></aside>
 
-This will tell you where to start your hunt
+What are the first steps on your bug hunt?
 
 * _Image not moving_
   * find the code that makes the image move
