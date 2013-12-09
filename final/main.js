@@ -1,4 +1,26 @@
 // Comments wuth '//!'' show the pseudo code//
+// Object with feeds. Each item in the object has the category as a key, and an array of feed urls as value.
+// N.B. The last item in both arrays and objects is not followed by a comma.
+var feeds = {
+    	"news" : [
+			"http://ftr-premium.fivefilters.org/makefulltextfeed.php?url=abc.net.au%2Fnews%2Ffeed%2F51120%2Frss.xml&key=1645&hash=9b7e283680a7fea70cee30f29ed76dc16b359e37&max=7&links=remove",
+			"http://ftr-premium.fivefilters.org/makefulltextfeed.php?url=abc.net.au%2Fnews%2Ffeed%2F51120%2Frss.xml&key=1645&hash=9b7e283680a7fea70cee30f29ed76dc16b359e37&max=7&links=remove"
+		],
+		"sport" : [],
+		"interests" : []
+	}
+
+$.getJSON( feeds.news[0], function( data ) {
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
 
 //RSS feed display on page // 
 // 1. RSS feed contents (article header, description, rss feed owner/link) are displayed in html tags
@@ -29,7 +51,7 @@
 //NEWS
 //http://qz.com/feed - Quartz
 //http://rss.cnn.com/rss/edition.rss - CNN
-//http://www.abc.net.au/services/rss/  - ABC just in
+//http://abc.net.au/news/feed/51120/rss.xml  - ABC just in
 //http://feeds.reuters.com/reuters/topNews
 
 
