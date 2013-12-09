@@ -1,7 +1,7 @@
 ![General Assembly](../assets/images/ga.png)
 # FEWD LESSON 13
 
-## FEWD - Responsive Basics 
+## FEWD - Responsive Basics
 
 ### Instructors
 Kit Yuen & Mart van de Ven
@@ -125,13 +125,13 @@ __em__
 <aside class="notes"></aside>
 
 ```
-<div id="em"> 
+<div id="em">
   <p class="one">1 em</p>
   <p class="two">2 em</p>
   <p class="three">3 em</p>
 </div>
 
-<div id="px"> 
+<div id="px">
   <p class="ten">10 px</p>
   <p class="twenty">20 px</p>
   <p class="thirty">30 px</p>
@@ -164,10 +164,10 @@ __rem__
 
 
 
-## The magic 67.5%
+## The magic 62.5%
 <aside class="notes"></aside>
 
-If the base font-size is 67.5%, then ...
+If the base font-size is 62.5%, then ...
 
   * 1em   = 10px
   * 1.3em = 13px
