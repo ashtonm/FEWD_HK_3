@@ -1,0 +1,202 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Droid Sans', sans-serif;
+     letter-spacing: -0.05em;
+
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+/* Nav & sidebar */
+
+header {
+     width:100%;
+     height: 10em;
+     border-bottom: thick solid #404040;
+    /* background-image: url("http://25.media.tumblr.com/211b5f4f19038a3940a16c7bcd7c84de/tumblr_mq7at6uz641st5lhmo1_1280.jpg");
+*/
+}
+
+h1 {
+     padding-top: 40px;
+     padding-left: 50px;
+}
+
+
+.sidebar {
+     width: 20%;
+     float: left;
+     height: 50em;
+     border-right: thick solid #404040;
+   /*  background-image: url("http://25.media.tumblr.com/211b5f4f19038a3940a16c7bcd7c84de/tumblr_mq7at6uz641st5lhmo1_1280.jpg");
+*/
+
+}
+
+ul {
+     padding: 5em 0 0 2em;
+
+}
+
+/* content box & positioning of elements */
+
+.contentbox {
+     width: 80%%;
+     float: right;
+     padding: 0 10em 0 10em;
+
+}
+
+.timetaken{
+     float: left;
+     width:33%;
+}
+
+.rssfeed {
+     float: right;
+     text-align: right;
+
+} 
+
+/* style of content box */
+
+h2 {
+     font-style: bold;
+     font-size: 2.5em; 
+}
+
+.description {
+     font-size: 1.5em;
+}
+
+.infobox {
+     font-size: 1.5em;
+     color: grey;
+}
+
+
+
+/* buttons */ 
+
+
+li.start {
+     background-color: grey;
+     border-top-left-radius:14px;
+     border-radius: 14px 0px 0px 14px; 
+     display:inline-block;
+     color:#ffffff;
+     font-size: 1.3em;
+     height: 3em;
+     line-height: 3em;
+     width: 4em;
+     text-decoration:none;
+     text-align:center;
+
+}li.start:hover {
+     background-color:#4197ee;
+}li.start:active {
+     position:relative;
+     top:1px;
+}
+
+li.middle {
+     background-color:grey ;
+     border-radius: 0px;
+     display:inline-block;
+     color:#ffffff;
+     font-size: 1.3em;
+     height: 3em;
+     line-height: 3em;
+     width: 4em;
+     text-decoration:none;
+     text-align:center;
+}li.middle:hover {
+     background-color:#4197ee;
+}li.middle:active {
+     position:relative;
+     top:1px;
+}
+
+li.end {
+     background-color:grey ;
+     border-radius: 0px 24px 24px 0px;
+     display:inline-block;
+     color:#ffffff;
+     font-size: 1.3em;
+     height: 3em;
+     line-height: 3em;
+     width: 4em;
+     text-decoration:none;
+     text-align:center;
+} li.end:hover{
+     background-color:#4197ee;
+} li .end:active {
+     position:relative;
+     top:1px; 
+}
+
+
+    

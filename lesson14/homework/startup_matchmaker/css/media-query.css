@@ -187,7 +187,31 @@ footer {
 }
 
 
+@media all and (min-width: 320px) and (max-width: 720px){
 
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0.5em;
+	line-height: 1.5;
+	cursor: default;
+}
+
+.tagline {
+display: none;
+}
+
+#page-header nav li {
+	display: none;
+}
+
+.blurb {
+	width: 60%;
+	margin: 0 auto;
+	padding: 4%;
+}
+
+
+}
 
 
 
