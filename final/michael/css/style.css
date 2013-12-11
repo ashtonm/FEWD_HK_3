@@ -46,11 +46,14 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+    /* color: #000; */
+     color: #777;
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Droid Sans', sans-serif;
-     letter-spacing: -0.05em;
+     letter-spacing: -0.10em;
+
+
 
 }
 
@@ -61,7 +64,7 @@ body {
 
 /* Center the container */
 .container {
-	width: 100%;
+	width: 100em;
 	margin: auto;
 }
 
@@ -76,35 +79,44 @@ header {
      width:100%;
      height: 10em;
      border-bottom: thick solid #404040;
-    /* background-image: url("http://25.media.tumblr.com/211b5f4f19038a3940a16c7bcd7c84de/tumblr_mq7at6uz641st5lhmo1_1280.jpg");
-*/
+     text-align: center;
+   /*  background-image: url("http://25.media.tumblr.com/211b5f4f19038a3940a16c7bcd7c84de/tumblr_mq7at6uz641st5lhmo1_1280.jpg");
+*/ 
 }
 
 h1 {
-     padding-top: 40px;
-     padding-left: 50px;
+     font-size: 5em;
+     letter-spacing:-3px;
+     color: black; 
+
+
 }
 
 
 .sidebar {
-     width: 20%;
+     width: 7%;
      float: left;
      height: 50em;
-     border-right: thick solid #404040;
+     position:fixed; top: 25%; left:2%; 
    /*  background-image: url("http://25.media.tumblr.com/211b5f4f19038a3940a16c7bcd7c84de/tumblr_mq7at6uz641st5lhmo1_1280.jpg");
 */
 
 }
 
 ul {
-     padding: 5em 0 0 2em;
+     padding-left: 0.4em;
+     padding-top: 5em;
 
 }
+
+
+
+hr { width: 50%; } 
 
 /* content box & positioning of elements */
 
 .contentbox {
-     width: 80%%;
+     width: 93%;
      float: right;
      padding: 0 10em 0 10em;
 
@@ -126,6 +138,8 @@ ul {
 h2 {
      font-style: bold;
      font-size: 2.5em; 
+     margin-bottom: 0.2em;
+     color: black;
 }
 
 .description {
@@ -134,18 +148,15 @@ h2 {
 
 .infobox {
      font-size: 1.5em;
-     color: grey;
+     color: black;
 }
-
-
 
 /* buttons */ 
 
 
-li.start {
+
+li {
      background-color: grey;
-     border-top-left-radius:14px;
-     border-radius: 14px 0px 0px 14px; 
      display:inline-block;
      color:#ffffff;
      font-size: 1.3em;
@@ -154,48 +165,13 @@ li.start {
      width: 4em;
      text-decoration:none;
      text-align:center;
+     margin-bottom: 0.1em;
 
-}li.start:hover {
+}li:hover {
      background-color:#4197ee;
-}li.start:active {
+}li:active {
      position:relative;
      top:1px;
-}
-
-li.middle {
-     background-color:grey ;
-     border-radius: 0px;
-     display:inline-block;
-     color:#ffffff;
-     font-size: 1.3em;
-     height: 3em;
-     line-height: 3em;
-     width: 4em;
-     text-decoration:none;
-     text-align:center;
-}li.middle:hover {
-     background-color:#4197ee;
-}li.middle:active {
-     position:relative;
-     top:1px;
-}
-
-li.end {
-     background-color:grey ;
-     border-radius: 0px 24px 24px 0px;
-     display:inline-block;
-     color:#ffffff;
-     font-size: 1.3em;
-     height: 3em;
-     line-height: 3em;
-     width: 4em;
-     text-decoration:none;
-     text-align:center;
-} li.end:hover{
-     background-color:#4197ee;
-} li .end:active {
-     position:relative;
-     top:1px; 
 }
 
 
