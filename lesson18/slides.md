@@ -1,5 +1,5 @@
 ![General Assembly](../assets/images/ga.png)
-# FEWD LESSON 17
+# FEWD LESSON 18
 
 ## FEWD - Animation
 
@@ -18,6 +18,7 @@ Kit Yuen & Mart van de Ven
 * Animations
 * Animation/Transition Event endings
 * Egg drop
+* Some jQuery plugins
 
 
 
@@ -29,7 +30,7 @@ The __transition__ property
 ```
 <div id="box"></div>
 <button id="btn">move</button>
-<~-- jQuery lib here -->
+<!-- jQuery lib here -->
 ```
 
 ```
@@ -115,3 +116,20 @@ For simple animation and you don't care about IE, use CSS3 whenever possible.
 <aside class="notes"></aside>
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
+
+
+
+## Some jQuery plugins
+<aside class="notes"></aside>
+
+![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
+
+
+
+## Some jQuery plugins
+<aside class="notes"></aside>
+
+* [jQuery Cycle](http://jquery.malsup.com/cycle/)
+* [jQuery Parallax](http://www.ianlunn.co.uk/plugins/jquery-parallax/)
+* [Superscrollorama](http://johnpolacek.github.io/superscrollorama/)
+* [jQuery Scroll Path](http://joelb.me/scrollpath/) 
